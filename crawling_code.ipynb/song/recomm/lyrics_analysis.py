@@ -7,7 +7,7 @@ from gensim.models import word2vec
 import pandas as pd
 import pymongo
 
-client = pymongo.MongoClient('mongodb://dss:dss@3.35.112.78:27017')
+client = pymongo.MongoClient('mongodb://dss:dss@'ip':27017')
 db = client['melon_chart']
 collection = db.song_list
 df = pd.DataFrame(list(collection.find()))
