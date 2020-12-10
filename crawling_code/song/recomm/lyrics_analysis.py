@@ -50,4 +50,4 @@ def search_similarity(year_end, year_start, look_keyword):
         keyword.append(s[0])
     relist = yrange[yrange['Lyrics'].str.contains('|'.join(keyword))]
     
-    return relist.sample(n=5)
+    return relist.sample(n=10)

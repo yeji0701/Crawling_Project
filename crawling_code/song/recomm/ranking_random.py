@@ -7,7 +7,7 @@ import random
 import song.user.user_playlist as playlist
 
 # mongodb에 연결해서 dataframe 만들기 : 전체곡 정보 데이터프레임 : df
-client = pymongo.MongoClient('mongodb://dss:dss@3.35.112.78:27017')
+client = pymongo.MongoClient('mongodb://dss:dss@'ip':27017')
 db = client['melon_chart']
 collection = db.song_list
 df = pd.DataFrame(list(collection.find()))
@@ -93,7 +93,4 @@ def top5_list(seq, df=df):
     # 뽑은 곡들 합해서 새로운 playlist 만들기
     result = pd.concat([first, second, third, fourth, fifth])
     
-    # 곡 정보 중에서 가수명,곡명,장르명 만 보여주기
-    playlist30 = result.loc[:, ["Artist", "Title", "Genre"]]
-    
-    return playlist30
+    return result
