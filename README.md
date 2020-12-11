@@ -9,7 +9,7 @@ The major activities in this project:
 * Building algorithm for music recommendation
 * Coding Flask and HTML to put algorithm in action
 
-Built with:
+Prerequisites:
 * Jupyter Notebook
 * VS Code
 * Python3
@@ -62,3 +62,18 @@ IV. Coding Flask and HTML to put algorithm in action
 ----------------------------------------------------
 Run file to work in localhost
 - [Flask + HTML](https://github.com/yeji0701/Crawling_Project/blob/master/recommendation/music.py)
+
+Built with
+----------
+* 김예지
+  * Crawling all data from Melon website and connecting DB to algorithm
+  * Coding algorithm using lyrics of the song using word2vec, Natural Language Processing
+  * Building Flask and HTML page for recommendation system
+   * Github : https://github.com/yeji0701
+* 김수경
+  * Coding algorithm for measuring similarities between a year and the user playlist
+  * Github : https://github.com/sukyeonging
+ 
+Acknowledgements to our crawling site
+-------------------------------------
+- [Melon chart](https://www.melon.com/)
