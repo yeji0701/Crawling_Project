@@ -56,8 +56,9 @@ I tried to think of creative ways to build a recommendation algorithm and came u
 1. Insert year range and keyword. Used word2vec to find similarity between the keyword and some words from lyrics of the song which is used to recommend the song.
 - [Analyzing song lyrics](https://github.com/yeji0701/Crawling_Project/blob/master/crawling_code/song/recomm/lyrics_analysis.py)
 2. Insert the sequence number of Melon playlist. The distribution of each genre in each year will be calculated and same goes to the user playlist. RMS will be calculated, smaller number between each year and the playlist means more similarity.
-[Measuring similarities between a year and the user playlist](https://github.com/yeji0701/Crawling_Project/blob/master/crawling_code/song/recomm/ranking_random.py)
+- [Measuring similarities between a year and the user playlist](https://github.com/yeji0701/Crawling_Project/blob/master/crawling_code/song/recomm/ranking_random.py)
 
 IV. Coding Flask and HTML to put algorithm in action
 ----------------------------------------------------
-
+Run file to work in localhost
+- [Flask + HTML](https://github.com/yeji0701/Crawling_Project/blob/master/recommendation/music.py)
