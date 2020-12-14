@@ -16,6 +16,10 @@ Prerequisites:
 * VS Code
 * Python3
 
+Diagram:
+
+![crawling melon chart](https://user-images.githubusercontent.com/28764376/102081669-f34c3e80-3e53-11eb-9df0-70288143a870.png)
+
 Getting Started
 ---------------
 ##### Packages to install
