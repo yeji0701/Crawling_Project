@@ -5,20 +5,31 @@ Gathering music data and buiding recommendation system
 This project started off from a question: "Past fashion trend came back as 'newtro (new + retro)', so can music trend come back too?" 
 The primary purpose was to crawl music data in the years 1960s~20100s from a music chart to explore and visualize. During this process, came an idea for a music recommendation system to answer another question: "What kind of modern music will a person with a playlist from the past listen to?"
 
-The major activities in this project:
+##### The major activities in this project:
 * Crawling data from 'Melon' chart
 * Cleansing and exploring the gathered data
 * Building algorithm for music recommendation
 * Coding Flask and HTML to put algorithm in action
 
-Prerequisites:
+##### Prerequisites:
 * Jupyter Notebook
 * VS Code
 * Python3
 
-Diagram:
+##### Diagram:
 
 ![crawling melon chart](https://user-images.githubusercontent.com/28764376/102081669-f34c3e80-3e53-11eb-9df0-70288143a870.png)
+
+Explanation of each code:
+1. crawling from Melon chart
+* details.py - crawling the music details (title, artist, genre, lyrics, year, link) from '멜론 시대별 차트' page using BeautifulSoup.
+* user_playlist.py - crawling music details of the user playlist when sequence number is inserted.
+2. recommendation
+* lyrics_analysis.py - recommendation algorithm through lyrics analysis
+* ranking_random.py - recommendation algorithm by comparing user's playlist genre data and each year's music genre data.
+3. execution of codes
+* send_message.py - send slack message through webhook.
+* music.py - build flask with each html files.
 
 Getting Started
 ---------------
