@@ -1,7 +1,7 @@
 Crawling + Flask Project
-
+------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/28764376/104112646-c6952500-5334-11eb-8763-99799abf268f.png)
-
+======================================================
 Gathering music data and buiding recommendation system
 ======================================================
 This project started off from a question: "Past fashion trend came back as 'newtro (new + retro)', so can music trend come back too?" 
