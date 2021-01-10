@@ -1,9 +1,12 @@
 Crawling + Flask Project
 
+![image](https://user-images.githubusercontent.com/28764376/104112646-c6952500-5334-11eb-8763-99799abf268f.png)
+
 Gathering music data and buiding recommendation system
 ======================================================
 This project started off from a question: "Past fashion trend came back as 'newtro (new + retro)', so can music trend come back too?" 
 The primary purpose was to crawl music data in the years 1960s~20100s from a music chart to explore and visualize. During this process, came an idea for a music recommendation system to answer another question: "What kind of modern music will a person with a playlist from the past listen to?"
+ -> presentation using canva: https://www.canva.com/design/DAEP53U400c/OziD-FNCam9HNV2XJCa-QQ/view?utm_content=DAEP53U400c&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#15
 
 ##### The major activities in this project:
 * Crawling data from 'Melon' chart
