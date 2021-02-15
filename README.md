@@ -3,7 +3,7 @@ Crawling + Flask Project
 Gathering music data and buiding recommendation system
 ======================================================
 This project started off from a question: "Past fashion trend came back as 'newtro (new + retro)', so can music trend come back too?" 
-The primary purpose was to crawl music data in the years 1960s~20100s from a music chart to explore and visualize. During this process, came an idea for a music recommendation system to answer another question: "What kind of modern music will a person with a playlist from the past listen to?"
+The primary purpose was to crawl music data in the years 1960s~2010s from a music chart to explore and visualize. During this process, came an idea for a music recommendation system to answer another question: "What kind of modern music will a person with a playlist from the past listen to?"
 
 The major activities in this project:
 * Crawling data from 'Melon' chart
@@ -11,34 +11,25 @@ The major activities in this project:
 * Building algorithm for music recommendation
 * Coding Flask and HTML to put algorithm in action
 
-Prerequisites:
-* Jupyter Notebook
-* VS Code
-* Python3
+Project Structure
+-----------------
+![image](https://user-images.githubusercontent.com/28764376/106692126-98df8b00-6617-11eb-919c-339fdf00a7c2.png)
 
 Getting Started
 ---------------
 ##### Packages to install
-1. Crawling Melon chart:
-* reqests
-* BeautifulSoup (bs4)
-* UserAgent (fake_useragent)
-* pandas
-2. Visualization:
-* matplotlib.pyplot
-* seaborn
-* warnings
-* font_manager (matplotlib) - for Korean font
-* pandas
-3. Algorithm
-* Okt (konply.tag)
-* re
-* gensim
-* word2vec (gensim.models)
-* pandas
-* pymongo
-* math
-* random
+- this project was built on Python 3 with following installations: (see [requirements.txt](https://github.com/yeji0701/Crawling_Project/blob/master/requirements.txt) for more information)
+```
+pip install requests
+pip install beautifulsoup4
+pip install fake-useragent
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install konlpy
+pip install gensim
+pip install pymongo
+```
 
 I. Crawling data from 'Melon' chart
 --------------------------------
@@ -63,7 +54,8 @@ I tried to think of creative ways to build a recommendation algorithm and came u
 IV. Coding Flask and HTML to put algorithm in action
 ----------------------------------------------------
 Run file to work in localhost
-- [Flask + HTML](https://github.com/yeji0701/Crawling_Project/blob/master/recommendation/music.py)
+- [Flask](https://github.com/yeji0701/Crawling_Project/blob/master/recommendation/music.py)
+- [HTML](https://github.com/dss-15th/crawling-repo-5/tree/master/recommendation/templates/music)
 
 Built with
 ----------
